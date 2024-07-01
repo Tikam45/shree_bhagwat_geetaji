@@ -1,0 +1,52 @@
+#nav {
+  position: fixed;
+  width: 98vw;
+  top: 0;
+  height: 11vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+#icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  font-family: 'Georgia', serif; /* A classic serif font for the title */
+}
+
+div > a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: white; /* White links */
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: #2e7d32; /* Slightly darker green for buttons */
+  transition: background-color 0.3s ease;
+}
+
+div > a:hover {
+  background-color: #1b5e20; /* Darker green on hover */
+}
+
+img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 25px;
+}

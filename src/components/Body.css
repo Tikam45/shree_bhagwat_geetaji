@@ -1,0 +1,28 @@
+/* Body.css */
+.body {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.chapter_number {
+  margin: 10px;
+}
+
+.chapter_count {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 4px;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.chapter_count:hover {
+  background-color: #0056b3;
+}

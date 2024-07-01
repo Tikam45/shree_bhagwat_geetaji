@@ -1,0 +1,13 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mainhead {
+  width: 100%;
+}
+.subhead {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20vh;
+}
